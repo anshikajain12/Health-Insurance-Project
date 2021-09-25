@@ -15,8 +15,8 @@ export class LoginComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    this.loginForm=new FormGroup({
-
+    this.loginForm = this.formBuilder.group({
+      Gender : [{value:1}]
     });
   }
 
