@@ -5,14 +5,13 @@
         </div>
     </div>
     <div class="Right_container">
-        <div class="container">
+        <div class="container" *ngIf="steps==1" >
             <h4>Protect yourself from Corona virus</h4>
             <h1>All health plans cover Covid-19 treatment</h1>
             <form action="">
                 <div class="gender-details">
                     <input type="radio" name="gender" id="male">
                     <label for="male">
-                        
                         <p>
                             <span>
                                 <i class="fa fa-male"></i> <br>
@@ -47,7 +46,7 @@
 
 
         
-        <div class="container">
+        <div class="container"  *ngIf="steps==2">
             <h4>Tell us who would you</h4>
             <h1>Like to Insure</h1>
             <form action="">
@@ -104,17 +103,14 @@
                 </div>
 
                 <div class="user-details">
-                    <input type= id="fname" placeholder="Enter Full Name ">
+                    <input type='text' id="fname" placeholder="Enter Full Name ">
                     <input type="text" id="phoneNumber" placeholder="Enter 10 Digit Mobile Number">
                 </div>
                 <div class="continue-btn">
-                    <input type="submit" value="Continue" (click)="onclick()" >
+                    <a routerLink="plans"> View Plans</a>
                 </div>
             </form>
-            <div class="terms-text">
-                By clicking on “CONTINUE”, you agree to our <span> <a href="">Privacy Policy</a></span>,
-                <span> <a href="">Term of Use</a></span> & <span> <a href="">Disclaimer</a></span>
-            </div>
+            
         </div>
         
 

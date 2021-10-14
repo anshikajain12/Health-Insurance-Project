@@ -121,20 +121,24 @@ input[type="submit"]{
 .terms-text{
     margin-top: 20px;
     text-align: center;
+    
 
 }
 
 
 /* family-details */
 .family-details label{
-    display:inline-block;
-    border:2px solid black;
-    width:140px;
-    margin-right: 18px;
-    min-height:88px;
+    border:2px solid rgb(87, 78, 78);
+    width:30%;
     border-radius: 10px;
-    cursor: pointer;
+    margin-bottom: 14px;
+    margin-right: 14px;
+    display: inline-block;
+
     
+}
+.family-details{
+   
 }
 .family-details label p{
     

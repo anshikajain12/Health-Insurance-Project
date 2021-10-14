@@ -5,9 +5,11 @@
 }
 body{
     width: 100%;
+
     
 }
 header{
+    padding: 10px;
     position: fixed;
     width: 100%;
     height: 70px;
@@ -34,4 +36,18 @@ header .button {
     border-radius: 10px;
     color:#fff;
     box-shadow: 2px 5px 5px gray;
+}
+
+
+/* main content */
+
+.main{
+    padding-top: 100px;    
+}
+.main .main-content{
+    width: 100%;
+    background-image: url('../images/health-insurance-policy-myths.jpg');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    height: 85vh;
 }
