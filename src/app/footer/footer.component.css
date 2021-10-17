@@ -1,16 +1,9 @@
-<<<<<<< HEAD
+
+
+
 
 .footer
 {
-    margin-top: 20px;
-=======
-*{
-    margin: 0;
-    padding: 0;box-sizing: border-box;
-}
-.footer
-{
->>>>>>> a0721502a4880208e77ba2c4dff913b9d4065da7
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,8 +86,4 @@ ul i{
     text-align: center;
     color:grey;
     padding: 1rem 1rem;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> a0721502a4880208e77ba2c4dff913b9d4065da7
