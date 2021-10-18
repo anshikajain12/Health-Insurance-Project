@@ -1,0 +1,118 @@
+<div class="form_container">
+    <div class="left_container">
+        <div class="imges-background">
+            <img src="../../assets/images/health-insurance-policy-myths.jpg" alt="">
+        </div>
+    </div>
+    <div class="Right_container">
+        <div class="container" *ngIf="steps==1" >
+            <h4>Protect yourself from Corona virus</h4>
+            <h1>All health plans cover Covid-19 treatment</h1>
+            <form action="">
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">
+                        <p>
+                            <span>
+                                <i class="fa fa-male"></i> <br>
+                                <span>Male</span>
+                            </span>
+                        </p>
+                    </label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">
+                        <p>
+                            <span>
+                                <i class="fa fa-female"></i> <br>
+                                <span>Female</span>
+                            </span>
+                        </p>
+                    </label>
+                </div>
+
+                <div class="user-details">
+                    <input type="text" id="fname" placeholder="Enter Full Name ">
+                    <input type="text" id="phoneNumber" placeholder="Enter 10 Digit Mobile Number">
+                </div>
+                <div class="continue-btn">
+                    <input type="submit" value="Continue" (click)="onclick()" >
+                </div>
+            </form>
+            <div class="terms-text">
+                By clicking on “CONTINUE”, you agree to our <span> <a href="">Privacy Policy</a></span>,
+                <span> <a href="">Term of Use</a></span> & <span> <a href="">Disclaimer</a></span>
+            </div>
+        </div>
+
+
+        
+        <div class="container"  *ngIf="steps==2">
+            <h4>Tell us who would you</h4>
+            <h1>Like to Insure</h1>
+            <form action="">
+                <div class="family-details">
+                    <input type="radio" name="family" id="me">
+                    <label for="me">
+                        
+                        <p>
+                            <span>
+                                <i class="fa fa-male"></i> <br>
+                                <span>Me</span>
+                            </span>
+                        </p>
+                    </label>
+                    <input type="radio" name="family" id="me-mywife">
+                    <label for="me-mywife">
+                        <p>
+                            <span>
+                                <i class="fa fa-female"></i> <br>
+                                <span>Me + My Wife</span>
+                            </span>
+                        </p>
+                    </label>
+                    
+                    <input type="radio" name="family" id="me-mywife-1child">
+                    <label for="me-mywife-1child">
+                        
+                        <p>
+                            <span>
+                                <i class="fa fa-male"></i> <br>
+                                <span>Me + My Wife + 1 child</span>
+                            </span>
+                        </p>
+                    </label>
+                    <input type="radio" name="family" id="me-mywife-2child">
+                    <label for="me-mywife-2child">
+                        <p>
+                            <span>
+                                <i class="fa fa-female"></i> <br>
+                                <span>Me + My Wife + 2 Children</span>
+                            </span>
+                        </p>
+                    </label>
+                    <input type="radio" name="family" id="parents">
+                    <label for="parents">
+                        
+                        <p>
+                            <span>
+                                <i class="fa fa-male"></i> <br>
+                                <span>My Parents</span>
+                            </span>
+                        </p>
+                    </label>
+                </div>
+
+                <div class="user-details">
+                    <input type='text' id="fname" placeholder="Enter Full Name ">
+                    <input type="text" id="phoneNumber" placeholder="Enter 10 Digit Mobile Number">
+                </div>
+                <div class="continue-btn">
+                    <a routerLink="plans"> View Plans</a>
+                </div>
+            </form>
+            
+        </div>
+        
+
+    </div>
+</div>
