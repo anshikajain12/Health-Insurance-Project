@@ -6,7 +6,7 @@
 body{
     width: 100%;
 
-    
+
 }
 header{
     padding: 10px;
@@ -17,14 +17,14 @@ header{
     color:#fff;
     display: flex;
     justify-content: space-between;
-    padding-top: 15px;;   
+    padding-top: 15px;;
 }
 header .button {
     top:20px;
     right: 50px;
     margin-top: 10px;
-    margin-right: 10px; 
-    
+    margin-right: 10px;
+
 }
 .button a {
     background-color:chocolate;
@@ -41,21 +41,3 @@ header .button {
 
 /* main content */
 
-.main{
-    padding-top: 75px;    
-}
-.main .main-content{
-    width: 100%;
-    background: linear-gradient(to right, #373b44, #4286f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 85vh;
-    display: inline-flex;
-}
-.main-content .left-main{
-    /* position: absolute; */
-    margin-top:150px;
-    margin-left: 40px;
-    height: 60%;
-    width: 40%;
-    background-color: white;
-    box-shadow: 5px 5px 15px black;
-}
