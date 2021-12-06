@@ -6,7 +6,7 @@
 body{
     width: 100%;
 
-    
+
 }
 header{
     padding: 10px;
@@ -17,14 +17,14 @@ header{
     color:#fff;
     display: flex;
     justify-content: space-between;
-    padding-top: 15px;;   
+    padding-top: 15px;;
 }
 header .button {
     top:20px;
     right: 50px;
     margin-top: 10px;
-    margin-right: 10px; 
-    
+    margin-right: 10px;
+
 }
 .button a {
     background-color:chocolate;
@@ -39,28 +39,6 @@ header .button {
 }
 
 
-/* main content */
 
-.main{
-    padding-top: 75px;    
-}
-.main .main-content{
-    width: 100%;
-    height: 85vh;
-    display: inline-flex;
-}
-.main-content .left-main{
-    /* position: absolute; */
-    /* margin-top:150px; */
-    margin-left: 10px;
-    height: 100%;
-    width: 100%;
-    background:linear-gradient(to right, #373b44, #4286f4);
-    box-shadow: 5px 5px 15px black;
-    text-align: center;
-}
-.left-main h1{
-    font-weight: 800;
-    font-size: 100px;
-    color: #fff;
-}
+
+
